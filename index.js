@@ -1,10 +1,7 @@
-//function addingEventListener() {
-  //  addEventListener('mouseover') 
-    
-//}
+const addingEventListener = document.getElementById('input');
 
-Element.addEventListener("click",addingEventListener);
-
-function addingEventListener(){
-    return false
+function clickAlert() {
+  alert('I was clicked!');
 }
+
+input.addEventListener('click', clickAlert);
